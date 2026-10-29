@@ -1,0 +1,56 @@
+<div class="tool-box" id="mbps-tool">
+	<h3>แปลง Mbps ↔ MB/s</h3>
+	<label for="conv-val">ค่าที่ต้องการแปลง</label>
+	<input id="conv-val" type="number" min="0" step="any" value="500" inputmode="decimal" />
+	<select id="conv-dir" aria-label="ทิศทางการแปลง">
+		<option value="m2b">Mbps → MB/s</option>
+		<option value="b2m">MB/s → Mbps</option>
+	</select>
+	<p class="result" id="conv-out" aria-live="polite"></p>
+</div>
+
+<div class="tool-box">
+	<h3>คำนวณเวลาดาวน์โหลด</h3>
+	<label for="dl-size">ขนาดไฟล์</label>
+	<input id="dl-size" type="number" min="0" step="any" value="5" inputmode="decimal" />
+	<select id="dl-unit" aria-label="หน่วยขนาดไฟล์">
+		<option value="1">MB</option>
+		<option value="1000" selected>GB</option>
+	</select>
+	<label for="dl-speed">ความเร็ว (Mbps)</label>
+	<input id="dl-speed" type="number" min="0" step="any" value="500" inputmode="decimal" />
+	<p class="result" id="dl-out" aria-live="polite"></p>
+	<p><small>ผลที่ได้เป็นค่าตามทฤษฎี ความเร็วจริงมักต่ำกว่า เพราะมีส่วนหัวของโปรโตคอล (overhead) สัญญาณ Wi-Fi และความเร็วของเซิร์ฟเวอร์ต้นทางเข้ามาเกี่ยวข้อง</small></p>
+</div>
+
+<script>
+	const $ = (id: string) => document.getElementById(id) as HTMLInputElement & HTMLSelectElement;
+	const nf = new Intl.NumberFormat('th-TH', { maximumFractionDigits: 2 });
+	function fmtTime(sec: number): string {
+		if (!isFinite(sec)) return '-';
+		if (sec < 1) return 'น้อยกว่า 1 วินาที';
+		const s = Math.round(sec);
+		const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), r = s % 60;
+		return [h ? `${h} ชั่วโมง` : '', m ? `${m} นาที` : '', r ? `${r} วินาที` : ''].filter(Boolean).join(' ');
+	}
+	function conv() {
+		const v = parseFloat($('conv-val').value);
+		const out = $('conv-out');
+		if (!(v >= 0)) { out.textContent = 'กรุณากรอกตัวเลข'; return; }
+		out.textContent = $('conv-dir').value === 'm2b'
+			? `${nf.format(v)} Mbps = ${nf.format(v / 8)} MB/s`
+			: `${nf.format(v)} MB/s = ${nf.format(v * 8)} Mbps`;
+	}
+	function dl() {
+		const size = parseFloat($('dl-size').value) * parseFloat($('dl-unit').value);
+		const speed = parseFloat($('dl-speed').value);
+		const out = $('dl-out');
+		if (!(size > 0) || !(speed > 0)) { out.textContent = 'กรุณากรอกขนาดไฟล์และความเร็วเป็นตัวเลขมากกว่า 0'; return; }
+		const sec = (size * 8) / speed;
+		out.textContent = `เวลาดาวน์โหลดตามทฤษฎีประมาณ ${fmtTime(sec)}`;
+	}
+	['conv-val', 'conv-dir'].forEach((id) => { $(id).addEventListener('input', conv); $(id).addEventListener('change', conv); });
+	['dl-size', 'dl-unit', 'dl-speed'].forEach((id) => { $(id).addEventListener('input', dl); $(id).addEventListener('change', dl); });
+	conv();
+	dl();
+</script>

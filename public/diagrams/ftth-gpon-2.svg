@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" role="img" aria-label="แถบความยาวคลื่นของ GPON และ XGS-PON ในย่าน 1,260 ถึง 1,600 นาโนเมตร" font-family="'Noto Sans Thai','Sarabun',Tahoma,sans-serif">
+  <rect x="2" y="2" width="916" height="326" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="460" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">ความยาวคลื่นของ GPON และ XGS-PON (nm)</text>
+  <!-- scale: x = 60 + (nm-1250)*2.4 ; 1250->60 , 1600->900 -->
+  <line x1="60" y1="250" x2="900" y2="250" stroke="#0f172a" stroke-width="2"/>
+  <g font-size="13" fill="#334155" text-anchor="middle">
+    <line x1="60" y1="245" x2="60" y2="255" stroke="#0f172a"/><text x="60" y="272">1,250</text>
+    <line x1="252" y1="245" x2="252" y2="255" stroke="#0f172a"/><text x="252" y="272">1,330</text>
+    <line x1="444" y1="245" x2="444" y2="255" stroke="#0f172a"/><text x="444" y="272">1,410</text>
+    <line x1="636" y1="245" x2="636" y2="255" stroke="#0f172a"/><text x="636" y="272">1,490</text>
+    <line x1="828" y1="245" x2="828" y2="255" stroke="#0f172a"/><text x="828" y="272">1,570</text>
+  </g>
+
+  <!-- GPON up 1260-1360 : x 84 .. 324 -->
+  <rect x="84" y="70" width="240" height="38" rx="6" fill="#bbf7d0" stroke="#15803d" stroke-width="2"/>
+  <text x="204" y="94" text-anchor="middle" font-size="15" font-weight="600" fill="#14532d">GPON ขาขึ้น 1,260–1,360</text>
+  <!-- GPON reduced upstream 1290-1330 : x 156 .. 252 (G.987.1 / G.984.5) -->
+  <rect x="156" y="112" width="96" height="10" rx="3" fill="none" stroke="#15803d" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="260" y="122" font-size="12" fill="#14532d">GPON ขาขึ้นช่วงแคบ 1,290–1,330 (เมื่ออยู่ร่วมกับ XGS-PON)</text>
+  <!-- GPON down 1480-1500 : x 612 .. 660 -->
+  <rect x="612" y="70" width="48" height="38" rx="6" fill="#bbf7d0" stroke="#15803d" stroke-width="2"/>
+  <text x="636" y="62" text-anchor="middle" font-size="15" font-weight="600" fill="#14532d">GPON ขาลง 1,480–1,500</text>
+
+  <!-- XGS up 1260-1280 : x 84 .. 132 -->
+  <rect x="84" y="150" width="48" height="38" rx="6" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <text x="140" y="174" font-size="15" font-weight="600" fill="#78350f">XGS-PON ขาขึ้น 1,260–1,280</text>
+  <!-- XGS down 1575-1580 : x 840 .. 852 -->
+  <rect x="840" y="150" width="12" height="38" rx="3" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <text x="846" y="140" text-anchor="end" font-size="15" font-weight="600" fill="#78350f">XGS-PON ขาลง 1,575–1,580</text>
+
+  <rect x="60" y="292" width="840" height="26" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="480" y="310" text-anchor="middle" font-size="13" fill="#0f172a">ขาลงแยกช่วงกัน ส่วนขาขึ้น XGS-PON (1,260–1,280) อยู่ร่วมได้เมื่อ GPON ใช้ขาขึ้นช่วงแคบ 1,290–1,330 nm</text>
+</svg>

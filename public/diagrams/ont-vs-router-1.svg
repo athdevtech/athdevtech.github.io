@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" role="img" aria-label="การต่ออุปกรณ์สามแบบ ONT กับเราเตอร์แยกกัน ONT แบบมีเราเตอร์ในตัว และ Double NAT" font-family="'Noto Sans Thai','Sarabun',Tahoma,sans-serif">
+  <rect x="2" y="2" width="916" height="436" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f172a"/></marker></defs>
+
+  <!-- Row 1 -->
+  <text x="24" y="38" font-size="16" font-weight="700" fill="#0f172a">แบบที่ 1 ONT แบบ bridge (SFU) + เราเตอร์แยก</text>
+  <rect x="24" y="52" width="130" height="66" rx="8" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="89" y="80" text-anchor="middle" font-size="15" font-weight="700" fill="#0c4a6e">สายไฟเบอร์</text>
+  <text x="89" y="100" text-anchor="middle" font-size="13" fill="#0c4a6e">สัญญาณแสง</text>
+  <line x1="154" y1="85" x2="214" y2="85" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="216" y="52" width="170" height="66" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="301" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#14532d">ONT (Layer 2)</text>
+  <text x="301" y="99" text-anchor="middle" font-size="13" fill="#14532d">แสง ↔ อีเทอร์เน็ต</text>
+  <line x1="386" y1="85" x2="446" y2="85" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="448" y="52" width="230" height="66" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="563" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#78350f">Router (Layer 3)</text>
+  <text x="563" y="99" text-anchor="middle" font-size="13" fill="#78350f">DHCP + NAT + Wi-Fi</text>
+  <line x1="678" y1="85" x2="738" y2="85" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="740" y="52" width="150" height="66" rx="8" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  <text x="815" y="90" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">อุปกรณ์ในบ้าน</text>
+
+  <line x1="24" y1="148" x2="896" y2="148" stroke="#e2e8f0"/>
+
+  <!-- Row 2 -->
+  <text x="24" y="176" font-size="16" font-weight="700" fill="#0f172a">แบบที่ 2 ONT แบบ HGU (เราเตอร์และ Wi-Fi ในตัว)</text>
+  <rect x="24" y="190" width="130" height="66" rx="8" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="89" y="218" text-anchor="middle" font-size="15" font-weight="700" fill="#0c4a6e">สายไฟเบอร์</text>
+  <text x="89" y="238" text-anchor="middle" font-size="13" fill="#0c4a6e">สัญญาณแสง</text>
+  <line x1="154" y1="223" x2="214" y2="223" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="216" y="190" width="462" height="66" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="447" y="216" text-anchor="middle" font-size="15" font-weight="700" fill="#14532d">ONT + Router ในกล่องเดียว (HGU)</text>
+  <text x="447" y="238" text-anchor="middle" font-size="13" fill="#14532d">แปลงแสง + DHCP + NAT + Wi-Fi</text>
+  <line x1="678" y1="223" x2="738" y2="223" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="740" y="190" width="150" height="66" rx="8" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  <text x="815" y="228" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">อุปกรณ์ในบ้าน</text>
+
+  <line x1="24" y1="286" x2="896" y2="286" stroke="#e2e8f0"/>
+
+  <!-- Row 3 -->
+  <text x="24" y="314" font-size="16" font-weight="700" fill="#b91c1c">แบบที่ 3 Double NAT: HGU ทำ NAT แล้วยังมีเราเตอร์ตัวที่สองทำ NAT ซ้ำ</text>
+  <rect x="24" y="328" width="130" height="66" rx="8" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="89" y="366" text-anchor="middle" font-size="15" font-weight="700" fill="#0c4a6e">สายไฟเบอร์</text>
+  <line x1="154" y1="361" x2="214" y2="361" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="216" y="328" width="200" height="66" rx="8" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="316" y="354" text-anchor="middle" font-size="15" font-weight="700" fill="#7f1d1d">HGU: NAT ชั้นที่ 1</text>
+  <text x="316" y="376" text-anchor="middle" font-size="13" fill="#7f1d1d">เช่น 192.168.1.x</text>
+  <line x1="416" y1="361" x2="476" y2="361" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="478" y="328" width="200" height="66" rx="8" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="578" y="354" text-anchor="middle" font-size="15" font-weight="700" fill="#7f1d1d">Router 2: NAT ชั้นที่ 2</text>
+  <text x="578" y="376" text-anchor="middle" font-size="13" fill="#7f1d1d">เช่น 192.168.0.x</text>
+  <line x1="678" y1="361" x2="738" y2="361" stroke="#0f172a" stroke-width="2.5" marker-end="url(#a)"/>
+  <rect x="740" y="328" width="150" height="66" rx="8" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  <text x="815" y="366" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">อุปกรณ์ในบ้าน</text>
+  <text x="460" y="424" text-anchor="middle" font-size="13" fill="#334155">แก้โดยตั้ง HGU เป็น Bridge Mode หรือตั้ง Router 2 เป็นโหมด Access Point (ที่อยู่ IP ข้างต้นเป็นเพียงตัวอย่างช่วงที่อยู่ส่วนตัว)</text>
+</svg>

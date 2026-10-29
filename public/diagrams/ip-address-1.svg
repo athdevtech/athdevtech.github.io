@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-label="เปรียบเทียบโครงสร้างที่อยู่ IPv4 และ IPv6" font-family="'Noto Sans Thai', Tahoma, sans-serif">
+<rect x="2" y="2" width="796" height="336" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="400" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">โครงสร้างที่อยู่ IPv4 เทียบกับ IPv6</text>
+<text x="30" y="80" font-size="16" font-weight="bold" fill="#1d4ed8">IPv4 : 32 บิต (4 ชุด ชุดละ 8 บิต) เขียนเป็นเลขฐานสิบ</text>
+<g font-size="22" font-family="Consolas, monospace" text-anchor="middle" fill="#0f172a">
+<rect x="30" y="95" width="150" height="50" rx="8" fill="#dbeafe" stroke="#1d4ed8"/><text x="105" y="128">192</text>
+<rect x="200" y="95" width="150" height="50" rx="8" fill="#dbeafe" stroke="#1d4ed8"/><text x="275" y="128">168</text>
+<rect x="370" y="95" width="150" height="50" rx="8" fill="#dbeafe" stroke="#1d4ed8"/><text x="445" y="128">1</text>
+<rect x="540" y="95" width="150" height="50" rx="8" fill="#dbeafe" stroke="#1d4ed8"/><text x="615" y="128">10</text>
+</g>
+<g font-size="22" font-weight="bold" fill="#475569" text-anchor="middle"><text x="190" y="136">.</text><text x="360" y="136">.</text><text x="530" y="136">.</text></g>
+<text x="30" y="170" font-size="14" fill="#475569">ตัวอย่างเป็นที่อยู่ในช่วงเครือข่ายภายใน (RFC 1918) แต่ละชุดมีค่า 0 ถึง 255</text>
+<text x="30" y="215" font-size="16" font-weight="bold" fill="#b45309">IPv6 : 128 บิต (8 ชุด ชุดละ 16 บิต) เขียนเป็นเลขฐานสิบหก</text>
+<g font-size="17" font-family="Consolas, monospace" text-anchor="middle" fill="#0f172a">
+<rect x="30" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="70" y="259">2001</text>
+<rect x="125" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="165" y="259">0db8</text>
+<rect x="220" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="260" y="259">0000</text>
+<rect x="315" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="355" y="259">0000</text>
+<rect x="410" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="450" y="259">0000</text>
+<rect x="505" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="545" y="259">0000</text>
+<rect x="600" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="640" y="259">0000</text>
+<rect x="695" y="230" width="80" height="44" rx="8" fill="#fef3c7" stroke="#b45309"/><text x="735" y="259">0001</text>
+</g>
+<g font-size="17" font-weight="bold" fill="#475569" text-anchor="middle"><text x="117.5" y="259">:</text><text x="212.5" y="259">:</text><text x="307.5" y="259">:</text><text x="402.5" y="259">:</text><text x="497.5" y="259">:</text><text x="592.5" y="259">:</text><text x="687.5" y="259">:</text>
+</g>
+<text x="30" y="302" font-size="14" fill="#475569">คั่นด้วยเครื่องหมาย : ย่อได้โดยตัดศูนย์นำหน้า และใช้ :: แทนชุดศูนย์ติดกัน (ใช้ได้ครั้งเดียว)</text>
+<text x="30" y="324" font-size="15" font-family="Consolas, monospace" font-weight="bold" fill="#0f172a">ย่อแล้ว  2001:db8::1</text>
+</svg>

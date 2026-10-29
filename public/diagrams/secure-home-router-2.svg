@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 410" width="820" height="410" role="img" aria-labelledby="t d" font-family="'Noto Sans Thai','Sarabun',Tahoma,'Segoe UI',sans-serif">
+<title id="t">แยก Guest Wi-Fi จากเครือข่ายหลัก</title><desc id="d">แผนภาพเราเตอร์ แยกเครือข่ายหลักและ Guest Wi-Fi สำหรับแขกและอุปกรณ์ IoT</desc>
+<rect x="2" y="2" width="816" height="406" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+<text x="410" y="38" font-size="20" fill="#1f2937" text-anchor="middle" font-weight="bold">แยก Guest Wi-Fi ออกจากเครือข่ายหลัก</text>
+<rect x="310" y="66" width="200" height="56" rx="12" fill="#ffffff" stroke="#4b5563" stroke-width="2.5"/>
+<text x="410.0" y="96" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="bold">อินเทอร์เน็ต</text>
+<rect x="310" y="160" width="200" height="70" rx="12" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<text x="410.0" y="190" font-size="18" fill="#1f2937" text-anchor="middle" font-weight="bold">เราเตอร์</text>
+<text x="410.0" y="214" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ตั้งค่าแยกเครือข่าย</text>
+<line x1="410" y1="122" x2="410" y2="160" stroke="#4b5563" stroke-width="2.5"/>
+<rect x="40" y="290" width="340" height="86" rx="12" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2.5"/>
+<text x="210.0" y="320" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="bold">Wi-Fi หลัก</text>
+<text x="210.0" y="344" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal">คอมพิวเตอร์ มือถือ NAS เครื่องพิมพ์</text>
+<rect x="440" y="290" width="340" height="86" rx="12" fill="#fff7ed" stroke="#c2410c" stroke-width="2.5"/>
+<text x="610.0" y="320" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="bold">Guest Wi-Fi (รหัสแยก)</text>
+<text x="610.0" y="344" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal">แขก ทีวี ลำโพง กล้อง และอุปกรณ์ IoT</text>
+<path d="M370 230 L210 290" stroke="#1d4ed8" stroke-width="2.5" fill="none"/><path d="M450 230 L610 290" stroke="#c2410c" stroke-width="2.5" fill="none"/>
+<text x="410" y="268" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="bold">ไม่เห็นอุปกรณ์ของกันและกัน</text>
+<text x="410" y="398" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="normal">ตามแนวทาง CISA อุปกรณ์ IoT ที่ต้องการแค่อินเทอร์เน็ตควรอยู่บน Guest Wi-Fi</text>
+</svg>

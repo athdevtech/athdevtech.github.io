@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 400" width="860" height="400" role="img" aria-labelledby="t d" font-family="'Noto Sans Thai','Sarabun',Tahoma,'Segoe UI',sans-serif">
+<title id="t">หลักการทำงานของ tracert และ traceroute</title><desc id="d">แผนภาพแสดงการเพิ่มค่า TTL ทีละหนึ่งเพื่อให้แต่ละเราเตอร์ ตอบกลับและเผยเส้นทาง</desc>
+<rect x="2" y="2" width="856" height="396" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+<text x="430" y="36" font-size="20" fill="#1f2937" text-anchor="middle" font-weight="bold">tracert / traceroute ทำงานอย่างไร: เพิ่ม TTL ทีละ 1</text>
+<text x="430" y="58" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">ภาพแบบย่อ ไม่แสดง hop ที่ไม่ตอบกลับ ใช้ที่อยู่ IP สำหรับตัวอย่าง (192.168.x.x, 198.51.100.x, 203.0.113.x)</text>
+<rect x="10" y="84" width="150" height="62" rx="12" fill="#ffffff" stroke="#4b5563" stroke-width="2.5"/>
+<text x="85" y="110" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">เครื่องของคุณ</text>
+<text x="85" y="132" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">192.168.1.10</text>
+<rect x="180" y="84" width="150" height="62" rx="12" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<text x="255" y="110" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">เราเตอร์บ้าน (hop 1)</text>
+<text x="255" y="132" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">192.168.1.1</text>
+<rect x="350" y="84" width="150" height="62" rx="12" fill="#ffffff" stroke="#1d4ed8" stroke-width="2.5"/>
+<text x="425" y="110" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">hop 2</text>
+<text x="425" y="132" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">198.51.100.1</text>
+<rect x="520" y="84" width="150" height="62" rx="12" fill="#ffffff" stroke="#1d4ed8" stroke-width="2.5"/>
+<text x="595" y="110" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">hop 3</text>
+<text x="595" y="132" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">203.0.113.1</text>
+<rect x="690" y="84" width="150" height="62" rx="12" fill="#ffffff" stroke="#c2410c" stroke-width="2.5"/>
+<text x="765" y="110" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">ปลายทาง</text>
+<text x="765" y="132" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">203.0.113.10</text>
+<line x1="160" y1="115" x2="180" y2="115" stroke="#9ca3af" stroke-width="2.5"/>
+<line x1="330" y1="115" x2="350" y2="115" stroke="#9ca3af" stroke-width="2.5"/>
+<line x1="500" y1="115" x2="520" y2="115" stroke="#9ca3af" stroke-width="2.5"/>
+<line x1="670" y1="115" x2="690" y2="115" stroke="#9ca3af" stroke-width="2.5"/>
+<text x="40" y="186" font-size="14" fill="#0f7b3e" text-anchor="start" font-weight="bold">TTL = 1 หมดที่เราเตอร์ บ้าน, เราเตอร์ตอบ ICMP Time Exceeded</text>
+<line x1="85" y1="202" x2="247" y2="202" stroke="#0f7b3e" stroke-width="3"/>
+<polygon points="255,202 245,196 245,208" fill="#0f7b3e"/><line x1="85" y1="202" x2="85" y2="202" stroke="#0f7b3e"/>
+<text x="40" y="238" font-size="14" fill="#1d4ed8" text-anchor="start" font-weight="bold">TTL = 2 หมดที่ hop 2, hop 2 ตอบ Time Exceeded</text>
+<line x1="85" y1="254" x2="417" y2="254" stroke="#1d4ed8" stroke-width="3"/>
+<polygon points="425,254 415,248 415,260" fill="#1d4ed8"/><line x1="85" y1="254" x2="85" y2="254" stroke="#1d4ed8"/>
+<text x="40" y="290" font-size="14" fill="#1d4ed8" text-anchor="start" font-weight="bold">TTL = 3 หมดที่ hop 3, hop 3 ตอบ Time Exceeded</text>
+<line x1="85" y1="306" x2="587" y2="306" stroke="#1d4ed8" stroke-width="3"/>
+<polygon points="595,306 585,300 585,312" fill="#1d4ed8"/><line x1="85" y1="306" x2="85" y2="306" stroke="#1d4ed8"/>
+<text x="40" y="342" font-size="14" fill="#c2410c" text-anchor="start" font-weight="bold">TTL = 4 ถึงปลายทาง, ปลายทางตอบกลับ จบการติดตาม</text>
+<line x1="85" y1="358" x2="757" y2="358" stroke="#c2410c" stroke-width="3"/>
+<polygon points="765,358 755,352 755,364" fill="#c2410c"/><line x1="85" y1="358" x2="85" y2="358" stroke="#c2410c"/>
+<text x="430" y="386" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">แต่ละ hop ที่ตอบกลับ ทำให้ได้ที่อยู่ของเราเตอร์ และเวลาไป-กลับ (ms) ของ hop นั้น</text>
+</svg>

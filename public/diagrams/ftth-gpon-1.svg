@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" role="img" aria-label="เส้นทางสัญญาณ FTTH GPON จาก OLT ผ่านสายป้อน ตัวแยกสัญญาณ สายเข้าบ้าน ถึง ONT" font-family="'Noto Sans Thai','Sarabun',Tahoma,sans-serif">
+  <rect x="2" y="2" width="916" height="336" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="460" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">เส้นทางสัญญาณ FTTH แบบ GPON</text>
+
+  <!-- OLT -->
+  <rect x="30" y="110" width="130" height="90" rx="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="95" y="145" text-anchor="middle" font-size="22" font-weight="700" fill="#0c4a6e">OLT</text>
+  <text x="95" y="170" text-anchor="middle" font-size="14" fill="#0c4a6e">ชุมสาย</text>
+  <text x="95" y="188" text-anchor="middle" font-size="14" fill="#0c4a6e">(ผู้ให้บริการ)</text>
+
+  <!-- feeder -->
+  <line x1="160" y1="155" x2="330" y2="155" stroke="#0f172a" stroke-width="4"/>
+  <text x="245" y="140" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">สายป้อน (feeder)</text>
+  <text x="245" y="178" text-anchor="middle" font-size="13" fill="#334155">ใยแสงเส้นร่วม</text>
+
+  <!-- splitter -->
+  <rect x="330" y="120" width="110" height="70" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="385" y="150" text-anchor="middle" font-size="17" font-weight="700" fill="#78350f">Splitter</text>
+  <text x="385" y="172" text-anchor="middle" font-size="13" fill="#78350f">1:N ไม่ใช้ไฟ</text>
+
+  <!-- drops -->
+  <line x1="440" y1="140" x2="560" y2="80" stroke="#0f172a" stroke-width="3"/>
+  <line x1="440" y1="155" x2="560" y2="155" stroke="#0f172a" stroke-width="3"/>
+  <line x1="440" y1="170" x2="560" y2="240" stroke="#0f172a" stroke-width="3"/>
+  <text x="440" y="88" text-anchor="middle" font-size="13" fill="#334155">สายเข้าบ้าน (drop)</text>
+
+  <!-- ONTs -->
+  <rect x="560" y="55" width="120" height="50" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="620" y="86" text-anchor="middle" font-size="16" font-weight="700" fill="#14532d">ONT บ้าน 1</text>
+  <rect x="560" y="130" width="120" height="50" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="620" y="161" text-anchor="middle" font-size="16" font-weight="700" fill="#14532d">ONT บ้าน 2</text>
+  <rect x="560" y="215" width="120" height="50" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="620" y="246" text-anchor="middle" font-size="16" font-weight="700" fill="#14532d">ONT บ้าน N</text>
+  <circle cx="620" cy="198" r="2.5" fill="#334155"/><circle cx="620" cy="204" r="2.5" fill="#334155"/><circle cx="620" cy="210" r="2.5" fill="#334155"/>
+
+  <!-- to router -->
+  <line x1="680" y1="155" x2="740" y2="155" stroke="#64748b" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="740" y="125" width="150" height="60" rx="8" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  <text x="815" y="152" text-anchor="middle" font-size="15" font-weight="600" fill="#0f172a">สาย Ethernet</text>
+  <text x="815" y="171" text-anchor="middle" font-size="14" fill="#334155">ไปเราเตอร์ในบ้าน</text>
+
+  <!-- wavelengths -->
+  <rect x="30" y="292" width="860" height="36" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="460" y="316" text-anchor="middle" font-size="14" fill="#0f172a">ขาลง (OLT → ONT) แสง 1,480–1,500 nm   |   ขาขึ้น (ONT → OLT) แสง 1,260–1,360 nm   |   ใยแสงเส้นเดียว สองทิศทาง</text>
+  <text x="30" y="285" text-anchor="start" font-size="13" fill="#334155">2.488 Gbit/s ↓ / 1.244 Gbit/s ↑ ใช้ร่วมกัน</text>
+</svg>

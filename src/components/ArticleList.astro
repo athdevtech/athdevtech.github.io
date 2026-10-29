@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+interface Props { category?: string; limit?: number }
+const { category, limit } = Astro.props;
+const all = await getCollection('docs');
+let items = all
+	.filter((e) => e.id.includes('/') && !e.id.endsWith('index') && (!category || e.id.startsWith(category + '/')))
+	.sort((a, b) => (b.data.pubDate?.getTime() ?? 0) - (a.data.pubDate?.getTime() ?? 0) || a.data.title.localeCompare(b.data.title, 'th'));
+if (limit) items = items.slice(0, limit);
+const fmt = (d?: Date) => d?.toLocaleDateString('th-TH', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+{items.length === 0 ? <p>กำลังเตรียมบทความ</p> : (
+	<ul class="article-list">
+		{items.map((e) => (
+			<li>
+				<a href={`/${e.id}/`}>{e.data.title}</a>
+				<small>{e.data.description}{e.data.pubDate ? ` · ${fmt(e.data.pubDate)}` : ''}</small>
+			</li>
+		))}
+	</ul>
+)}

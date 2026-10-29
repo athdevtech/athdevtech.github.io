@@ -1,0 +1,29 @@
+---
+title: คลังความรู้อินเทอร์เน็ตและเครือข่าย
+description: คลังความรู้อินเทอร์เน็ตและเครือข่ายภาษาไทย อธิบายหลักการทำงานของเน็ตไฟเบอร์ Wi-Fi อุปกรณ์เครือข่าย ความปลอดภัย และวิธีแก้ปัญหา พร้อมแหล่งอ้างอิง
+template: splash
+hero:
+  tagline: อธิบายว่าอินเทอร์เน็ตที่บ้านและเครือข่ายทำงานอย่างไร ด้วยภาษาที่อ่านง่าย พร้อมแหล่งอ้างอิงจากมาตรฐานและเอกสารทางการ
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import ArticleList from '../../components/ArticleList.astro';
+
+NetLab TH รวบรวมความรู้พื้นฐานและเชิงลึกเกี่ยวกับอินเทอร์เน็ตบ้าน ไฟเบอร์ออปติก Wi-Fi อุปกรณ์เครือข่าย ความปลอดภัย และการแก้ปัญหาเบื้องต้น เป็นเว็บให้ความรู้ล้วน ไม่ขายสินค้า ไม่มีโฆษณา ตัวเลขทุกตัวมีแหล่งอ้างอิง
+
+## หมวดความรู้
+
+<CardGrid>
+	<Card title="พื้นฐานอินเทอร์เน็ต" icon="open-book">IP, DNS, แบนด์วิดท์ และความหน่วง [เปิดหมวด](/internet-basics/)</Card>
+	<Card title="เน็ตไฟเบอร์" icon="rocket">FTTH, GPON, ONT และสายไฟเบอร์ [เปิดหมวด](/fiber/)</Card>
+	<Card title="Wi-Fi" icon="star">มาตรฐาน ย่านความถี่ และช่องสัญญาณ [เปิดหมวด](/wifi/)</Card>
+	<Card title="อุปกรณ์เครือข่าย" icon="setting">Router, switch, access point และสาย LAN [เปิดหมวด](/devices/)</Card>
+	<Card title="เครือข่ายในบ้าน" icon="puzzle">NAT, พอร์ต, guest network และอื่น ๆ [เปิดหมวด](/home-network/)</Card>
+	<Card title="ความปลอดภัย" icon="approve-check">ตั้งค่า router และป้องกันเครือข่ายบ้าน [เปิดหมวด](/security/)</Card>
+	<Card title="แก้ปัญหาเน็ต" icon="warning">ตรวจสอบและวิเคราะห์ปัญหาเน็ตช้าหรือหลุด [เปิดหมวด](/troubleshooting/)</Card>
+	<Card title="เครื่องมือ" icon="pencil">เครื่องคำนวณที่ใช้งานได้ทันที [เปิดหมวด](/tools/)</Card>
+</CardGrid>
+
+## บทความล่าสุด
+
+<ArticleList limit={10} />

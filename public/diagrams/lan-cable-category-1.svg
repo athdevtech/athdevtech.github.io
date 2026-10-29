@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" role="img" aria-label="แผนภาพแท่งย่านความถี่ของสาย LAN Cat5e 100 MHz Cat6 250 MHz Cat6a 500 MHz Cat7 600 MHz Cat8 2000 MHz" font-family="'Noto Sans Thai','Sarabun',Tahoma,sans-serif">
+  <rect x="2" y="2" width="916" height="356" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="460" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">ย่านความถี่ที่รับรองของสาย LAN (MHz)</text>
+  <!-- bar scale: 0.2 px per MHz from x=130 ; 2000 MHz = 400px -->
+  <g font-size="16" fill="#0f172a">
+    <text x="120" y="82" text-anchor="end" font-weight="700">Cat5e</text>
+    <rect x="130" y="60" width="20" height="30" rx="4" fill="#38bdf8"/>
+    <text x="162" y="82">100 MHz  |  1 Gbps ที่ 100 m</text>
+
+    <text x="120" y="132" text-anchor="end" font-weight="700">Cat6</text>
+    <rect x="130" y="110" width="50" height="30" rx="4" fill="#22c55e"/>
+    <text x="192" y="132">250 MHz  |  1 Gbps ที่ 100 m, 10 Gbps ระยะสั้น</text>
+
+    <text x="120" y="182" text-anchor="end" font-weight="700">Cat6a</text>
+    <rect x="130" y="160" width="100" height="30" rx="4" fill="#16a34a"/>
+    <text x="242" y="182">500 MHz  |  10 Gbps ที่ 100 m</text>
+
+    <text x="120" y="232" text-anchor="end" font-weight="700">Cat7</text>
+    <rect x="130" y="210" width="120" height="30" rx="4" fill="#f59e0b"/>
+    <text x="262" y="232">600 MHz  |  ISO/IEC 11801 ไม่ใช่ TIA</text>
+
+    <text x="120" y="282" text-anchor="end" font-weight="700">Cat8</text>
+    <rect x="130" y="260" width="400" height="30" rx="4" fill="#7c3aed"/>
+    <text x="542" y="282">2000 MHz  |  25/40 Gbps ที่ 30 m</text>
+  </g>
+  <text x="460" y="334" text-anchor="middle" font-size="13" fill="#334155">ความยาวแท่งเทียบตามค่า MHz จริง  |  ย่านความถี่ไม่ใช่ความเร็ว แต่กำหนดว่าอุปกรณ์รุ่นเร็วขึ้นใช้งานบนสายได้ไหม</text>
+</svg>

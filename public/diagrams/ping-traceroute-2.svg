@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="820" height="520" role="img" aria-labelledby="t d" font-family="'Noto Sans Thai','Sarabun',Tahoma,'Segoe UI',sans-serif">
+<title id="t">ลำดับตรวจปัญหาเน็ตด้วย ping</title><desc id="d">ผังแสดงการ ping เราเตอร์ที่บ้าน ที่อยู่ IP ภายนอก และชื่อโดเมน เพื่อแยกว่าปัญหาอยู่ที่ไหน</desc>
+<rect x="2" y="2" width="816" height="516" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+<text x="410" y="36" font-size="20" fill="#1f2937" text-anchor="middle" font-weight="bold">ไล่ตรวจทีละชั้นด้วย ping เพื่อดูว่าติดตรงไหน</text>
+<rect x="30" y="62" width="380" height="58" rx="12" fill="#f0fdf4" stroke="#0f7b3e" stroke-width="2.5"/>
+<text x="220" y="97" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">1. ping เราเตอร์ที่บ้าน (เช่น 192.168.1.1)</text>
+<rect x="470" y="62" width="320" height="58" rx="12" fill="#fff7ed" stroke="#c2410c" stroke-width="2.5"/>
+<text x="630" y="87" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="bold">ไม่ตอบ: ปัญหาอยู่ในบ้าน</text>
+<text x="630" y="107" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">สาย LAN, สัญญาณ Wi-Fi, ตัวเราเตอร์</text>
+<line x1="410" y1="91" x2="458" y2="91" stroke="#c2410c" stroke-width="2.5"/>
+<polygon points="468,91 458,85 458,97" fill="#c2410c"/><line x1="220" y1="120" x2="220" y2="162" stroke="#0f7b3e" stroke-width="2.5"/>
+<polygon points="220,172 214,162 226,162" fill="#0f7b3e"/><text x="232" y="150" font-size="13" fill="#0f7b3e" text-anchor="start" font-weight="normal">ตอบปกติ</text>
+<rect x="30" y="174" width="380" height="58" rx="12" fill="#f0fdf4" stroke="#0f7b3e" stroke-width="2.5"/>
+<text x="220" y="209" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">2. ping ที่อยู่ IP ภายนอก (เช่น 8.8.8.8)</text>
+<rect x="470" y="174" width="320" height="58" rx="12" fill="#fff7ed" stroke="#c2410c" stroke-width="2.5"/>
+<text x="630" y="199" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="bold">ไม่ตอบ: ปัญหาอยู่ถัดจากเราเตอร์</text>
+<text x="630" y="219" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">ใช้ tracert / mtr ดูว่าหยุดที่ hop ไหน</text>
+<line x1="410" y1="203" x2="458" y2="203" stroke="#c2410c" stroke-width="2.5"/>
+<polygon points="468,203 458,197 458,209" fill="#c2410c"/><line x1="220" y1="232" x2="220" y2="274" stroke="#0f7b3e" stroke-width="2.5"/>
+<polygon points="220,284 214,274 226,274" fill="#0f7b3e"/><text x="232" y="262" font-size="13" fill="#0f7b3e" text-anchor="start" font-weight="normal">ตอบปกติ</text>
+<rect x="30" y="286" width="380" height="58" rx="12" fill="#f0fdf4" stroke="#0f7b3e" stroke-width="2.5"/>
+<text x="220" y="321" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">3. ping ชื่อโดเมน (เช่น example.com)</text>
+<rect x="470" y="286" width="320" height="58" rx="12" fill="#fff7ed" stroke="#c2410c" stroke-width="2.5"/>
+<text x="630" y="311" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="bold">ตอบเฉพาะ IP ไม่ตอบชื่อ: ปัญหา DNS</text>
+<text x="630" y="331" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">ตรวจเรื่อง DNS</text>
+<line x1="410" y1="315" x2="458" y2="315" stroke="#c2410c" stroke-width="2.5"/>
+<polygon points="468,315 458,309 458,321" fill="#c2410c"/><line x1="220" y1="344" x2="220" y2="386" stroke="#0f7b3e" stroke-width="2.5"/>
+<polygon points="220,396 214,386 226,386" fill="#0f7b3e"/><text x="232" y="374" font-size="13" fill="#0f7b3e" text-anchor="start" font-weight="normal">ตอบปกติ</text>
+<rect x="30" y="398" width="380" height="58" rx="12" fill="#f0fdf4" stroke="#0f7b3e" stroke-width="2.5"/>
+<text x="220" y="433" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">4. ping ผ่านทั้งหมดแต่ยังช้า</text>
+<rect x="470" y="398" width="320" height="58" rx="12" fill="#fff7ed" stroke="#c2410c" stroke-width="2.5"/>
+<text x="630" y="423" font-size="14" fill="#c2410c" text-anchor="middle" font-weight="bold">ดูค่า ms ที่แกว่ง และ loss</text>
+<text x="630" y="443" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">ใช้ pathping / mtr ดูทีละ hop</text>
+<line x1="410" y1="427" x2="458" y2="427" stroke="#c2410c" stroke-width="2.5"/>
+<polygon points="468,427 458,421 458,433" fill="#c2410c"/></svg>

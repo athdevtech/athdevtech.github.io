@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" role="img" aria-label="ลำดับขั้นตอนการแปลงชื่อโดเมนเป็น IP address ผ่าน DNS" font-family="'Noto Sans Thai', Tahoma, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#334155"/></marker></defs>
+<rect x="2" y="2" width="816" height="416" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="410" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">ขั้นตอนการค้นหา IP ของ www.example.com</text>
+<g font-size="15" text-anchor="middle" fill="#0f172a">
+<rect x="30" y="170" width="150" height="70" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/><text x="105" y="200">เบราว์เซอร์</text><text x="105" y="222" font-size="12">(1 เช็กแคชในเครื่อง)</text>
+<rect x="260" y="170" width="170" height="70" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="345" y="198">Recursive Resolver</text><text x="345" y="220" font-size="12">(ของ ISP หรือ DNS สาธารณะ)</text>
+<rect x="580" y="62" width="210" height="60" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/><text x="685" y="88">Root Server</text><text x="685" y="108" font-size="12">บอกว่าใครดูแล .com</text>
+<rect x="580" y="170" width="210" height="70" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/><text x="685" y="198">TLD Server (.com)</text><text x="685" y="220" font-size="12">บอกว่าใครดูแล example.com</text>
+<rect x="580" y="288" width="210" height="70" rx="10" fill="#fce7f3" stroke="#be185d" stroke-width="2"/><text x="685" y="316">Authoritative Server</text><text x="685" y="338" font-size="12">ตอบ IP ของ www.example.com</text>
+</g>
+<g stroke="#334155" stroke-width="2" fill="none" marker-end="url(#a)">
+<line x1="182" y1="195" x2="258" y2="195"/>
+<line x1="430" y1="180" x2="578" y2="100"/>
+<line x1="432" y1="205" x2="578" y2="205"/>
+<line x1="430" y1="232" x2="578" y2="312"/>
+</g>
+<g font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">
+<text x="220" y="183">2</text><text x="495" y="125">3</text><text x="505" y="196">4</text><text x="495" y="290">5</text>
+</g>
+<line x1="258" y1="225" x2="182" y2="225" stroke="#334155" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#a)"/>
+<text x="220" y="246" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">6</text>
+<g font-size="14" fill="#334155">
+<text x="30" y="290">2 เบราว์เซอร์ถาม resolver หา www.example.com</text>
+<text x="30" y="316">3 ถาม Root แล้วได้ชื่อ TLD server</text>
+<text x="30" y="342">4 ถาม TLD แล้วได้ชื่อ authoritative server</text>
+<text x="30" y="368">5 ถาม authoritative แล้วได้ IP</text>
+<text x="30" y="394">6 ส่ง IP กลับ และเก็บแคชตาม TTL</text>
+</g>
+</svg>

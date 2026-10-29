@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img" aria-labelledby="t d" font-family="'Noto Sans Thai','Sarabun',Tahoma,'Segoe UI',sans-serif">
+<title id="t">ช่องสัญญาณ Wi-Fi 2.4 GHz และช่องที่ไม่ทับกัน</title><desc id="d">กราฟแสดงช่อง 1 ถึง 13 ของย่าน 2.4 GHz โดยช่อง 1, 6 และ 11 ไม่ซ้อนทับกัน</desc>
+<rect x="2" y="2" width="816" height="396" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+<text x="410" y="38" font-size="20" fill="#1f2937" text-anchor="middle" font-weight="bold">ช่องสัญญาณ Wi-Fi 2.4 GHz: ช่อง 1, 6, 11 ไม่ทับกัน</text>
+<text x="410" y="62" font-size="14" fill="#4b5563" text-anchor="middle" font-weight="normal">แต่ละช่องกว้างราว 20–22 MHz แต่ศูนย์กลางห่างกันเพียง 5 MHz จึงซ้อนทับกัน</text>
+<line x1="30" y1="290" x2="790" y2="290" stroke="#6b7280" stroke-width="2"/>
+<polygon points="78,290 94,130 238,130 254,290" fill="#0f7b3e" fill-opacity="0.28" stroke="#0f7b3e" stroke-width="3"/>
+<text x="166" y="312" font-size="16" fill="#0f7b3e" text-anchor="middle" font-weight="bold">1</text>
+<polygon points="118,290 134,203 278,203 294,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="206" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">2</text>
+<polygon points="158,290 174,175 318,175 334,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="246" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">3</text>
+<polygon points="198,290 214,189 358,189 374,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="286" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">4</text>
+<polygon points="238,290 254,203 398,203 414,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="326" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">5</text>
+<polygon points="278,290 294,130 438,130 454,290" fill="#0f7b3e" fill-opacity="0.28" stroke="#0f7b3e" stroke-width="3"/>
+<text x="366" y="312" font-size="16" fill="#0f7b3e" text-anchor="middle" font-weight="bold">6</text>
+<polygon points="318,290 334,189 478,189 494,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="406" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">7</text>
+<polygon points="358,290 374,203 518,203 534,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="446" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">8</text>
+<polygon points="398,290 414,175 558,175 574,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="486" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">9</text>
+<polygon points="438,290 454,189 598,189 614,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="526" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">10</text>
+<polygon points="478,290 494,130 638,130 654,290" fill="#0f7b3e" fill-opacity="0.28" stroke="#0f7b3e" stroke-width="3"/>
+<text x="566" y="312" font-size="16" fill="#0f7b3e" text-anchor="middle" font-weight="bold">11</text>
+<polygon points="518,290 534,175 678,175 694,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="606" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">12</text>
+<polygon points="558,290 574,189 718,189 734,290" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+<text x="646" y="312" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">13</text>
+<text x="166" y="332" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="normal">2412 MHz</text>
+<text x="366" y="332" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="normal">2437 MHz</text>
+<text x="566" y="332" font-size="12" fill="#4b5563" text-anchor="middle" font-weight="normal">2462 MHz</text>
+<text x="410" y="366" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">ช่อง 1–13 มีศูนย์กลาง 2412–2472 MHz อยู่ในย่าน 2400–2500 MHz ที่ กสทช. กำหนดให้ใช้ทั่วไป</text>
+<text x="410" y="388" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">ช่องสีเทาคือช่องที่เลือกแล้วจะซ้อนทับกับช่อง 1, 6 หรือ 11 ที่อยู่ข้างเคียง</text>
+</svg>

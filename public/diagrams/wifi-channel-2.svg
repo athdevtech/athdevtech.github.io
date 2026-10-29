@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" role="img" aria-labelledby="t d" font-family="'Noto Sans Thai','Sarabun',Tahoma,'Segoe UI',sans-serif">
+<title id="t">Channel Width 20 40 80 160 MHz ย่าน 5 GHz</title><desc id="d">แผนภาพแสดงการรวมช่อง 20 MHz เป็นช่อง 40, 80 และ 160 MHz</desc>
+<rect x="2" y="2" width="816" height="436" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+<text x="410" y="38" font-size="20" fill="#1f2937" text-anchor="middle" font-weight="bold">Channel Width 20 / 40 / 80 / 160 MHz บนย่าน 5 GHz</text>
+<text x="410" y="62" font-size="14" fill="#4b5563" text-anchor="middle" font-weight="normal">ช่องกว้างคือการรวมช่อง 20 MHz หลายช่องเข้าด้วยกัน (ตัวอย่างใช้ช่อง 36–64)</text>
+<rect x="150" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="188.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 36</text>
+<rect x="230" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="268.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 40</text>
+<rect x="310" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="348.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 44</text>
+<rect x="390" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="428.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 48</text>
+<rect x="470" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="508.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 52</text>
+<rect x="550" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="588.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 56</text>
+<rect x="630" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="668.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 60</text>
+<rect x="710" y="86" width="76" height="30" rx="6" fill="#e5e7eb" stroke="#9ca3af"/>
+<text x="748.0" y="107" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="normal">ช่อง 64</text>
+<text x="138" y="106" font-size="13" fill="#4b5563" text-anchor="end" font-weight="normal">ช่อง 20 MHz</text>
+<text x="138" y="174" font-size="16" fill="#1f2937" text-anchor="end" font-weight="bold">20 MHz</text>
+<rect x="150" y="150" width="76" height="34" rx="8" fill="#0f7b3e"/>
+<text x="188.0" y="173" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">20 MHz</text>
+<text x="238" y="172" font-size="13" fill="#4b5563" text-anchor="start" font-weight="normal">ช่องเดียว: รบกวนกันน้อย เหลือช่องให้เลือกมาก</text>
+<text x="138" y="226" font-size="16" fill="#1f2937" text-anchor="end" font-weight="bold">40 MHz</text>
+<rect x="150" y="202" width="156" height="34" rx="8" fill="#1d4ed8"/>
+<text x="228.0" y="225" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">40 MHz</text>
+<text x="318" y="224" font-size="13" fill="#4b5563" text-anchor="start" font-weight="normal">รวม 2 ช่อง</text>
+<text x="138" y="278" font-size="16" fill="#1f2937" text-anchor="end" font-weight="bold">80 MHz</text>
+<rect x="150" y="254" width="316" height="34" rx="8" fill="#c2410c"/>
+<text x="308.0" y="277" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">80 MHz</text>
+<text x="478" y="276" font-size="13" fill="#4b5563" text-anchor="start" font-weight="normal">รวม 4 ช่อง</text>
+<text x="138" y="330" font-size="16" fill="#1f2937" text-anchor="end" font-weight="bold">160 MHz</text>
+<rect x="150" y="306" width="636" height="34" rx="8" fill="#7c3aed"/>
+<text x="468.0" y="329" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">160 MHz</text>
+<text x="150" y="362" font-size="13" fill="#4b5563" text-anchor="start" font-weight="normal">รวม 8 ช่อง: ความเร็วสูงสุดสูงที่สุด แต่ใช้คลื่นเกือบทั้งช่วง 5150–5350 MHz</text>
+<text x="410" y="420" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal">ช่วง 5150–5350 MHz กว้าง 200 MHz จึงมีที่พอสำหรับช่อง 160 MHz ได้เพียงช่องเดียว</text>
+</svg>

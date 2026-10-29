@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="820" height="520" role="img" aria-labelledby="t d" font-family="'Noto Sans Thai','Sarabun',Tahoma,'Segoe UI',sans-serif">
+<title id="t">เช็กลิสต์ตั้งค่าเราเตอร์ ที่บ้าน</title><desc id="d">รายการ 10 ข้อสำหรับตั้งค่าเราเตอร์ ที่บ้านให้ปลอดภัย</desc>
+<rect x="2" y="2" width="816" height="516" rx="16" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+<text x="410" y="40" font-size="22" fill="#1f2937" text-anchor="middle" font-weight="bold">เช็กลิสต์ตั้งค่าเราเตอร์ ที่บ้านให้ปลอดภัย</text>
+<text x="410" y="64" font-size="14" fill="#4b5563" text-anchor="middle" font-weight="normal">อ้างอิงแนวทางของ CISA (Module 5: Securing Your Home Wi-Fi)</text>
+<rect x="40" y="86" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="92" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 103 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="108" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">1. เปลี่ยนชื่อผู้ใช้และรหัสผ่านหน้าตั้งค่าเราเตอร์</text>
+<rect x="40" y="126" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="132" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 143 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="148" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">2. อัปเดตเฟิร์มแวร์ (เปิดอัตโนมัติถ้ามี)</text>
+<rect x="40" y="166" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="172" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 183 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="188" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">3. รหัส Wi-Fi ยาวและไม่ซ้ำ (วลี 5–7 คำ รวม ≥ 16 ตัวอักษร)</text>
+<rect x="40" y="206" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="212" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 223 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="228" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">4. ใช้ WPA3-Personal หรือ WPA2 AES</text>
+<rect x="40" y="246" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="252" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 263 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="268" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">5. ปิด WPS</text>
+<rect x="40" y="286" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="292" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 303 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="308" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">6. ปิด Remote Management</text>
+<rect x="40" y="326" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="332" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 343 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="348" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">7. ปิด UPnP หลังเพิ่มอุปกรณ์เสร็จ</text>
+<rect x="40" y="366" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="372" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 383 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="388" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">8. เปลี่ยนชื่อ Wi-Fi (SSID) ไม่ใส่ข้อมูลส่วนตัว</text>
+<rect x="40" y="406" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="412" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 423 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="428" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">9. เปิด Guest Wi-Fi สำหรับแขกและอุปกรณ์ IoT</text>
+<rect x="40" y="446" width="740" height="34" rx="8" fill="#f3f4f6"/>
+<rect x="54" y="452" width="22" height="22" rx="5" fill="#ffffff" stroke="#0f7b3e" stroke-width="2.5"/>
+<path d="M58 463 l5 6 l9 -12" fill="none" stroke="#0f7b3e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="92" y="468" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal">10. วางเครื่องในที่ที่คนอื่นเข้าถึงไม่ง่าย</text>
+</svg>
