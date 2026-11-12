@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" role="img" aria-label="เส้นทางของข้อมูลจากอุปกรณ์ในบ้านผ่านเราเตอร์ ONT เส้นใยแสง เครือข่ายของผู้ให้บริการ ไปยังเครือข่ายอื่นบนอินเทอร์เน็ต" font-family="'Noto Sans Thai', Tahoma, sans-serif">
+<defs><marker id="a" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#334155"/></marker></defs>
+<rect x="2" y="2" width="856" height="326" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="430" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">เส้นทางของข้อมูลจากบ้านถึงอินเทอร์เน็ต</text>
+<g font-size="15" text-anchor="middle" fill="#0f172a">
+<rect x="24" y="110" width="130" height="80" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/><text x="89" y="145">อุปกรณ์ในบ้าน</text><text x="89" y="167" font-size="12">มือถือ ทีวี คอมพิวเตอร์</text>
+<rect x="196" y="110" width="120" height="80" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/><text x="256" y="145">เราเตอร์</text><text x="256" y="167" font-size="12">แจก IP ในบ้าน</text>
+<rect x="358" y="110" width="110" height="80" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/><text x="413" y="145">ONT</text><text x="413" y="167" font-size="12">แปลงแสง/ไฟฟ้า</text>
+<rect x="510" y="110" width="150" height="80" rx="10" fill="#fce7f3" stroke="#be185d" stroke-width="2"/><text x="585" y="145">เครือข่ายผู้ให้บริการ</text><text x="585" y="167" font-size="12">ชุมสาย และเราเตอร์แกนหลัก</text>
+<rect x="702" y="110" width="134" height="80" rx="10" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/><text x="769" y="145">เครือข่ายอื่น</text><text x="769" y="167" font-size="12">ผู้ให้บริการเว็บและแอป</text>
+</g>
+<g stroke="#334155" stroke-width="2" fill="none" marker-end="url(#a)">
+<line x1="156" y1="150" x2="194" y2="150"/><line x1="318" y1="150" x2="356" y2="150"/><line x1="470" y1="150" x2="508" y2="150"/><line x1="662" y1="150" x2="700" y2="150"/>
+</g>
+<g font-size="13" text-anchor="middle" fill="#1e293b">
+<text x="175" y="104">Wi-Fi หรือสาย LAN</text><text x="337" y="104">สาย LAN</text><text x="489" y="104">เส้นใยแสง</text><text x="681" y="104">การเชื่อมต่อ</text><text x="681" y="120">ระหว่างเครือข่าย</text>
+</g>
+<rect x="190" y="224" width="130" height="2" fill="#94a3b8"/>
+<text x="256" y="252" text-anchor="middle" font-size="13" fill="#1e293b">ส่วนนี้อยู่ในบ้าน</text>
+<rect x="360" y="224" width="300" height="2" fill="#94a3b8"/>
+<text x="510" y="252" text-anchor="middle" font-size="13" fill="#1e293b">ส่วนนี้ผู้ให้บริการดูแล</text>
+<text x="430" y="300" text-anchor="middle" font-size="12" fill="#475569">ผังแสดงเส้นทางอย่างย่อ ของจริงอาจมีอุปกรณ์เพิ่มระหว่างทาง และบางรุ่นรวม ONT กับเราเตอร์ไว้ในกล่องเดียว</text>
+</svg>
