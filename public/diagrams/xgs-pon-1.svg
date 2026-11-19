@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" role="img" aria-label="แผนภูมิแท่งเปรียบเทียบความจุเฉลี่ยต่อบ้านเมื่อแยกสัญญาณ 1 ต่อ 32 และ 1 ต่อ 64 ของ GPON กับ XGS-PON" font-family="'Noto Sans Thai','Sarabun',Tahoma,sans-serif">
+  <rect x="2" y="2" width="916" height="356" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="460" y="36" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">ความจุขาลงเฉลี่ยต่อบ้าน เมื่อทุกบ้านใช้พร้อมกัน (Mbit/s)</text>
+  <!-- scale: 1 Mbit/s = 1.7 px, bars start x=230 -->
+  <text x="215" y="92" text-anchor="end" font-size="15" fill="#0f172a">GPON แยก 1:32</text>
+  <rect x="230" y="70" width="132" height="32" rx="6" fill="#64748b"/>
+  <text x="372" y="92" font-size="15" font-weight="700" fill="#0f172a">ประมาณ 78</text>
+  <text x="215" y="150" text-anchor="end" font-size="15" fill="#0f172a">GPON แยก 1:64</text>
+  <rect x="230" y="128" width="66" height="32" rx="6" fill="#64748b"/>
+  <text x="306" y="150" font-size="15" font-weight="700" fill="#0f172a">ประมาณ 39</text>
+  <text x="215" y="208" text-anchor="end" font-size="15" fill="#0f172a">XGS-PON แยก 1:32</text>
+  <rect x="230" y="186" width="529" height="32" rx="6" fill="#0f766e"/>
+  <text x="769" y="208" font-size="15" font-weight="700" fill="#0f172a">ประมาณ 311</text>
+  <text x="215" y="266" text-anchor="end" font-size="15" fill="#0f172a">XGS-PON แยก 1:64</text>
+  <rect x="230" y="244" width="265" height="32" rx="6" fill="#0f766e"/>
+  <text x="505" y="266" font-size="15" font-weight="700" fill="#0f172a">ประมาณ 156</text>
+  <text x="460" y="318" text-anchor="middle" font-size="13" fill="#334155">คำนวณจากอัตราบิตขาลง GPON 2.488 Gbit/s และ XGS-PON 9.953 Gbit/s หารด้วยอัตราแยก</text>
+  <text x="460" y="338" text-anchor="middle" font-size="13" fill="#334155">เป็นกรณีเลวร้ายที่สุด ยังไม่หักส่วนควบคุมของโปรโตคอล</text>
+</svg>
