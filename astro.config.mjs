@@ -1,9 +1,30 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+// shortcut: @astrojs/markdown-satteri comes in through astro (not listed in package.json); add it there if an install ever drops it.
+import { satteri } from '@astrojs/markdown-satteri';
+
+const SITE_HOST = 'athdevtech.github.io';
+
+// Outbound links open in a new tab (user rule 2026-11-28). Links to this site stay in the same tab.
+const externalLinksNewTab = {
+	name: 'external-links-new-tab',
+	element: {
+		filter: ['a'],
+		visit(node, ctx) {
+			const href = String(node.properties?.href ?? '');
+			if (!/^https?:\/\//.test(href) || new URL(href).host === SITE_HOST) return;
+			const rel = [].concat(node.properties.rel ?? []).join(' ').split(' ').filter(Boolean);
+			if (!rel.includes('noopener')) rel.push('noopener');
+			ctx.setProperty(node, 'target', '_blank');
+			ctx.setProperty(node, 'rel', rel.join(' '));
+		},
+	},
+};
 
 // https://astro.build/config
 export default defineConfig({
+	markdown: { processor: satteri({ hastPlugins: [externalLinksNewTab] }) },
 	site: 'https://athdevtech.github.io',
 	integrations: [
 		starlight({
